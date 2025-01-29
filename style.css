@@ -1,0 +1,58 @@
+body {
+    background-color: #AB52B5;
+    font-family: 'Inter', sans-serif;
+ }
+
+/* Death trip logo */
+.deathtrip-container {
+  width: 316px;
+  height: 166px;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.title-box {
+  width: 135px;
+  height: 60px;
+  background: rgba(255, 255, 255, 1);
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.title-text {
+  color: rgba(171, 82, 180, 1);
+  font-weight: normal;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: left;
+}
+
+.subtitle-text {
+  color: rgba(255, 255, 255, 1);
+  font-weight: normal;
+  position: absolute;
+  top: 85px;
+  left: 130px;
+  text-align: left;
+}
+
+.title-text, .subtitle-text {
+  font-size: 48px; 
+}
+
+/* Ung i trafikken Logo */
+.ut_bilde {
+    width: 250px;
+    height: 130px;
+    object-fit: contain; 
+    position: absolute;
+    top: 30px;
+}

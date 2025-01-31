@@ -1,13 +1,14 @@
- <!DOCTYPE html>
- <html lang="no">
+<!DOCTYPE html>
+<html lang="no">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Death Trip">
         <title>Death Trip</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="vars.css">
         <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
     </head>
-    
     <body>
         <header>
             <!-- Logo: Death Trip -->
@@ -18,7 +19,30 @@
                 <span class="subtitle-text">Trip</span>
             </div>
             <!-- Ung i trafikken Logo -->
-            <img class="ut_bilde" src="./bilder/colored_image.png" alt="ung i traffiken">
+            <img class="ut_bilde" src="./bilder/colored_image.png" alt="ung i trafikken">
+
+            <!-- Wave thingy -->
+            <img class="vector-1" src="./bilder/vector-1.svg" />
+            
+            <!-- Menu Icon -->
+            <div class="menu-container" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <!-- Menu Slide -->
+            <nav id="menu" class="sidenav">
+                <a href="#" onclick="toggleMenu()">Ingen</a>
+                <a href="#" onclick="toggleMenu()">Ingen</a>
+                <a href="#" onclick="toggleMenu()">Ingen</a>
+                <a href="#" onclick="toggleMenu()">Ingen</a>
+            </nav>
+
+            <!-- Background overlay -->
+            <div id="overlay" class="overlay" onclick="toggleMenu()"></div>
         </header>
+
+        <script src="script.js"></script>
     </body>
- </html>
+</html>

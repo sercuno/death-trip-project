@@ -68,7 +68,7 @@ body {
   width: 1800px;
   position: absolute;  
   top: 100%;
-  left: 47%;
+  left: 50%;
   transform: translate(-50%, -50%); 
   overflow: visible;
   margin-bottom: 10px;
@@ -154,4 +154,53 @@ body {
 .overlay.active {
     opacity: 1;
     visibility: visible;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .deathtrip-container {
+        width: 100vw;
+        top: 30px;
+        position: absolute;
+        left: 50%;
+    }
+
+    .title-text, .subtitle-text {
+        font-size: 10vw;
+    }
+
+    .ut_bilde {
+        width: 50%;
+        top: 30px;
+        right: 10px;
+    }
+
+    .menu-container {
+        top: 30px;
+        right: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-text, .subtitle-text {
+        font-size: 12vw;
+    }
+    .deathtrip-container {
+        width: 100vw;
+        top: 30px;
+        position: absolute;
+        left: 55%;
+    }
+
+    .ut_bilde {
+        width: 60%;
+    }
+
+    .menu-container {
+        top: 30px;
+        right: 10px;
+    }
+
+    .sidenav {
+        width: 80%;
+    }
 }

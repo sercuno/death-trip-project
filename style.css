@@ -24,7 +24,7 @@ body {
   background: rgba(255, 255, 255, 1);
   padding: 10px;
   margin: 10px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -155,52 +155,130 @@ body {
     opacity: 1;
     visibility: visible;
 }
-/* Responsive Design */
-@media (max-width: 768px) {
-    .deathtrip-container {
-        width: 100vw;
-        top: 30px;
-        position: absolute;
-        left: 50%;
-    }
 
-    .title-text, .subtitle-text {
-        font-size: 10vw;
-    }
+/* Tablet (Landscape) and below */
+@media only screen and (max-width: 1024px) {
+  .deathtrip-container {
+    width: 250px;
+    height: 130px;
+    top: 20px;
+  }
 
-    .ut_bilde {
-        width: 50%;
-        top: 30px;
-        right: 10px;
-    }
+  .title-box {
+    width: 120px;
+    height: 50px;
+  }
 
-    .menu-container {
-        top: 30px;
-        right: 15px;
-    }
+  .title-text, .subtitle-text {
+    font-size: 42px;
+  }
+
+  .ut_bilde {
+    width: 200px;
+    height: 100px;
+    top: 20px;
+  }
+
+  .vector-1 {
+    width: 1400px;
+    height: 450px;
+  }
+
+  .menu-container {
+    top: 55px;
+    right: 30px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+    padding: 12px 20px;
+  }
 }
 
-@media (max-width: 480px) {
-    .title-text, .subtitle-text {
-        font-size: 12vw;
-    }
-    .deathtrip-container {
-        width: 100vw;
-        top: 30px;
-        position: absolute;
-        left: 55%;
-    }
+/* Mobile Devices */
+@media only screen and (max-width: 768px) {
+  .deathtrip-container {
+    width: 250px;
+    height: 130px;
+    top: 15px;
+  }
 
-    .ut_bilde {
-        width: 60%;
-    }
+  .title-box {
+    width: 100px;
+    height: 40px;
+  }
 
-    .menu-container {
-        top: 30px;
-        right: 10px;
-    }
+  .title-text, .subtitle-text {
+    font-size: 35px;
+  }
 
-    .sidenav {
-        width: 80%;
-    }
+  .subtitle-text {
+    top: 70px;
+    left: 100px;
+  }
+
+  .ut_bilde {
+    width: 180px;
+    height: 90px;
+    top: 15px;
+  }
+
+  .vector-1 {
+    width: 1400px;
+    height: 400px;
+  }
+
+  .menu-container {
+    top: 45px;
+    right: 20px;
+  }
+
+  .sidenav a {
+    font-size: 16px;
+    padding: 10px 18px;
+  }
+}
+
+/* Mobile Phones */
+@media only screen and (max-width: 480px) {
+  .deathtrip-container {
+    width: 180px;
+    height: 100px;
+    top: 10px;
+    left: 55%;
+  }
+
+  .title-box {
+    width: 80px;
+    height: 30px;
+  }
+
+  .title-text, .subtitle-text {
+    font-size: 28px;
+  }
+
+  .subtitle-text {
+    top: 60px;
+  }
+
+  .ut_bilde {
+    width: 150px;
+    height: 80px;
+    top: 10px;
+  }
+
+  .vector-1 {
+    width: 1200px;
+    height: 400px;
+  }
+
+  .menu-container {
+    top: 35px;
+    right: 15px;
+  }
+
+  .sidenav a {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
 }

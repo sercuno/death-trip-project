@@ -2,54 +2,53 @@
 <html lang="no">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:title" content="Death Trip">
-        <title>Death Trip</title>
-        <link rel="icon" type="image/x-icon" href="./bilder/ut2.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Kjør Ærlig - Kampanje Mot Kjøring Under Ruspåvirkning</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="vars.css">
-        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div class="header-container">
-                <!-- Logo: Death Trip -->
-                <div class="deathtrip-container">
-                    <div class="title-box">
-                        <span class="title-text">Death</span>
-                    </div>
-                    <span class="subtitle-text">Trip</span>
-                </div>
-                <!-- Ung i trafikken Logo -->
-                <img class="ut_bilde" src="./bilder/colored_image.png" alt="ung i trafikken">
-            </div>
-
-            <!-- Menu Icon -->
-            <div class="menu-container" onclick="toggleMenu()">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-content">
+                <h1>Kjør Ærlig, Vær Trygg</h1>
+                <p>Bli med i kampen mot kjøring under ruspåvirkning. Sammen kan vi gjøre en forskjell!</p>
+                <a href="https://www.ungitrafikken.no/om-ung-i-trafikken" class="cta-btn">Bli Med</a>
             </div>
         </header>
 
-        <!-- Slagord text -->
-        <h1 id="slagord">Hei Alle Sammen</h1>
-        
-        <!-- Menu Slide -->
-        <nav id="menu" class="sidenav">
-            <a href="#" onclick="toggleMenu()">Ingen</a>
-            <a href="#" onclick="toggleMenu()">Ingen</a>
-            <a href="#" onclick="toggleMenu()">Ingen</a>
-            <a href="#" onclick="toggleMenu()">Ingen</a>
-        </nav>
+        <!-- Key Message Section -->
+        <section class="key-message">
+            <h2>Hvorfor Det Er Viktig</h2>
+            <p>Kjøring under ruspåvirkning er en dødelig risiko, spesielt blant unge mennesker i Norge. Hvert år skjer utallige ulykker på grunn av påvirket kjøring. Vi er her for å øke bevisstheten og sikre at neste generasjon tar bedre og tryggere valg.</p>
+            <ul>
+                <li><strong>18%</strong> av trafikkulykker involverer påvirkede sjåfører</li>
+                <li><strong>110</strong> liv tapt i Norge på grunn av kjøring under ruspåvirkning for 2023</li>
+                <li><strong>Unge sjåfører</strong> er den mest berørte gruppen</li>
+            </ul>
+        </section>
 
-        <!-- Menu Bakgrunn -->
-        <div id="overlay" class="overlay" onclick="toggleMenu()"></div>
+        <!-- Call to Action Section -->
+        <section class="cta-section" id="cta">
+            <h2>Gjør En Forskjell I Dag</h2>
+            <p>Hjelp oss med å spre budskapet med prosjekter. Ta pleddet og få din stemme hørt!</p>
+            <a href="https://www.ungitrafikken.no/kampanjer-og-prosjekter" class="cta-btn">Ta Pleddet</a>
+        </section>
 
-        <main style="background-color: white;">
-            <img class="vector-1" src="./bilder/vector-1.svg" alt="Vector" />
-        </main>
+        <!-- Social Proof Section -->
+        <section class="social-proof">
+            <h2>Støttet Av</h2>
+            <div class="partners">
+                <!-- Add partner logos here -->
+                <img src="./bilder/elvebakken-removebg-preview.png" alt="Partner 1">
+                <img src="./bilder/ut-lila-removebg-preview.png" alt="Partner 2">
+            </div>
+        </section>
 
-        <script src="script.js"></script>
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2025 Kjør Ærlig Kampanje. Alle rettigheter reservert.</p>
+            <p><a href="#">Personvernpolicy</a> | <a href="#">Bruksvilkår</a></p>
+        </footer>
     </body>
 </html>

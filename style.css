@@ -54,7 +54,7 @@ body {
 
 /* Key Message Section */
 .key-message {
-    padding: 150px 20px;
+    padding: 250px 20px;
     background: #f9f9f9;
     text-align: center;
 }
@@ -106,12 +106,11 @@ body {
     color: #666;
 }
 
-/* Call to Action Section */
 .cta-section {
-    background-color: #e74c3c;
-    color: #fff;
+    background-color: white;
+    color:  rgb(138, 43, 226);
     text-align: center;
-    padding: 50px 20px;
+    padding: 320px 20px;
 }
 
 .cta-section h2 {
@@ -124,11 +123,29 @@ body {
     margin-bottom: 30px;
 }
 
-/* Social Proof Section */
+.cta-btn2 {
+    background: rgb(138, 43, 226);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.cta-btn2:hover {
+    background: none;
+    border: 3px solid rgb(138, 43, 226);
+    color: rgb(138, 43, 226);
+}
+
+
 .social-proof {
     text-align: center;
     padding: 50px 20px;
-    background-color: #333;
+    color: white;
 }
 
 .social-proof h2 {
@@ -141,19 +158,20 @@ body {
     margin: 0 10px;
 }
 
-/* Footer Section */
+
 footer {
-    background-color: #222;
+    background: linear-gradient(135deg, rgb(171, 82, 181) 40%, rgb(138, 43, 226));
     text-align: center;
     padding: 20px 0;
 }
 
 footer p {
     font-size: 1em;
+    color: white;
 }
 
 footer a {
-    color: #e74c3c;
+    color: white;
     text-decoration: none;
 }
 

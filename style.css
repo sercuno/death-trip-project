@@ -178,3 +178,39 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.prosjekter {
+    text-align: center;
+    padding: 250px 20px;
+    background: linear-gradient(135deg, rgb(171, 82, 181) 40%, rgb(138, 43, 226));
+}
+
+.prosjekter h2 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.prosjekter h3 {
+    font-size: 2em;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.prosjekter .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; 
+}
+
+.prosjekter video {
+    max-width: 80%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.prosjekter video:hover {
+    transform: scale(1.05);
+}
+
